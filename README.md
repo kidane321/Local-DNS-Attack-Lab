@@ -31,7 +31,8 @@
 ![image](https://user-images.githubusercontent.com/99901204/215655029-e6741bfb-f39d-4f1b-99b0-d8d9ab6d460d.png)
 
 <h2>Starting DNS Server:</h2>
-![image](https://user-images.githubusercontent.com/99901204/215655088-b933f4e6-85bd-4729-90f8-972209f090ff.png)
+![image](https://user-images.githubusercontent.com/99901204/215656161-33c99c29-4e0a-4133-bc1e-46a5d7dd344f.png)
+
 
 <h4> Every time a modification is made to the DNS configuration, the DNS server needs to be restarted </h4>
 - <b>  Using Command: sudo service Bind9 restart </b> 
