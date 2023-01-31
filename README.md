@@ -31,7 +31,9 @@
 ![image](https://user-images.githubusercontent.com/99901204/215655029-e6741bfb-f39d-4f1b-99b0-d8d9ab6d460d.png)
 
 <h2>Starting DNS Server:</h2>
-![image](https://user-images.githubusercontent.com/99901204/215656161-33c99c29-4e0a-4133-bc1e-46a5d7dd344f.png)
+
+
+![image](https://user-images.githubusercontent.com/99901204/215656256-826608fe-4def-4c57-bc6c-c14d62f4ee43.png)
 
 
 <h4> Every time a modification is made to the DNS configuration, the DNS server needs to be restarted </h4>
