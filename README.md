@@ -56,7 +56,7 @@
 <h2>Task 4 Modifying the host file</h2>
 
 Before 
-Ping www.example.net on user machine
+<b> Ping www.example.net on user machine </b>
 
 ![image](https://user-images.githubusercontent.com/99901204/215657321-fdffae9e-5313-44a3-9a91-eeb68374e2da.png)
 <h4> By modifying hostname(www.example.net) and Ip address (1.2.3.4) in the host file using (sudo gedit /etc/hosts) command.so if there is a following entry in the HOSTS file in the user’s computer, the “www.example.com” will be resolved as 1.2.3.4 in user’s computer without asking any DNS server. </h4>
@@ -65,7 +65,7 @@ Ping www.example.net on user machine
 
 
 After
-Ping www.example.net on user machine
+<b> Ping www.example.net on user machine </b>
 
 ![image](https://user-images.githubusercontent.com/99901204/215657599-5455ea31-d50f-476e-87c7-d9208780bfa9.png)
 
