@@ -7,7 +7,8 @@
 - <b>DNS Server : 10.0.2.7(Ip address changed on last tasks to 10.0.2.10)</b>
 - <b>Attacker Machine:10.0.2.8</b>
 <br />
-![Picture1](https://user-images.githubusercontent.com/99901204/215654126-e248569f-6ea7-4408-a992-ad83303b9183.png)
+
+![Picture1](https://user-images.githubusercontent.com/99901204/215654584-3fa12d25-718f-48db-8599-7369ce5a97f3.png)
 
 
 <h2>Task 1: Configure the User Machine</h2>
