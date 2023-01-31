@@ -40,12 +40,15 @@
 - <b>  Using Command: sudo service Bind9 restart </b> 
 <h2>Creating Zones: </h2>
 <h4> To create zone, we added those content to “  /etc/bind/named.conf ” </h4>
+
 ![image](https://user-images.githubusercontent.com/99901204/215655484-09125f72-dd76-426b-984b-a14750731ff4.png)
 
 ![image](https://user-images.githubusercontent.com/99901204/215655495-2d326b57-0a6d-4240-a617-f6aace9e0e46.png)
 <h4> Set up the reverse lookup </h4>
+
 ![image](https://user-images.githubusercontent.com/99901204/215655634-09d14a97-f99d-4903-86f0-363dc8e53803.png)
 <h4>Setup the forward lookup zone file </h4>
+
 ![image](https://user-images.githubusercontent.com/99901204/215655695-913eaf4b-ae5f-4182-be9d-0c360ff3cff5.png)
 
 <h1>Lab Tasks (Part II): Attacks on DNS</h1>
