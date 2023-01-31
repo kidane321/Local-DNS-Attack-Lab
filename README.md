@@ -14,6 +14,8 @@
 <h2>Task 1: Configure the User Machine</h2>
 
 - <b>sudo gedit /etc/resolv.conf</b> 
+![image](https://user-images.githubusercontent.com/99901204/215654748-f9792523-0808-4450-88bf-78675fbda025.png)
+
  <h5>running the above command on user machine. Change the Ip address of nameserver to the IP address of the server machine we are using as a Local DNS server. nameserver 10.0.2.10</h5>
 
 <h2>Task 2: Setting up a Local DNS Server </h2>
