@@ -19,40 +19,35 @@
  <h5>running the above command on user machine. Change the Ip address of nameserver to the IP address of the server machine we are using as a Local DNS server. nameserver 10.0.2.10</h5>
 
 <h2>Task 2: Setting up a Local DNS Server </h2>
+
+![image](https://user-images.githubusercontent.com/99901204/215654824-eeef8544-7426-45dc-98d1-b6da90a500d8.png)
+
+- <b>Turning off DNSSEC </b> 
+![image](https://user-images.githubusercontent.com/99901204/215654968-55f5edf3-9942-470c-8fed-c66c00a2a067.png)
+
 <h5>To show how attacks work without protection mechanism, we need to turn the protection off. This is done by modifying the "named.conf. options" file: comment out the "dnssec-validation entry " and add a dnssec-enable entry </h5>
 - <b>  Using Command: sudo gedit /etc/bind/named.conf.options </b> 
 
+![image](https://user-images.githubusercontent.com/99901204/215655029-e6741bfb-f39d-4f1b-99b0-d8d9ab6d460d.png)
+
 <h2>Starting DNS Server:</h2>
+![image](https://user-images.githubusercontent.com/99901204/215655088-b933f4e6-85bd-4729-90f8-972209f090ff.png)
+
 <h4> Every time a modification is made to the DNS configuration, the DNS server needs to be restarted </h4>
 - <b>  Using Command: sudo service Bind9 restart </b> 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://imgur.com/PoG6LOZ" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<h2>Creating Zones: </h2>
+<h4> To create zone, we added those content to “  /etc/bind/named.conf ” </h4>
+![image](https://user-images.githubusercontent.com/99901204/215655484-09125f72-dd76-426b-984b-a14750731ff4.png)
+
+![image](https://user-images.githubusercontent.com/99901204/215655495-2d326b57-0a6d-4240-a617-f6aace9e0e46.png)
+<h4> Set up the reverse lookup </h4>
+![image](https://user-images.githubusercontent.com/99901204/215655634-09d14a97-f99d-4903-86f0-363dc8e53803.png)
+<h4>Setup the forward lookup zone file </h4>
+![image](https://user-images.githubusercontent.com/99901204/215655695-913eaf4b-ae5f-4182-be9d-0c360ff3cff5.png)
+
+<h1>Lab Tasks (Part II): Attacks on DNS</h1>
+
+<h2>Task 4 Modifying the host file</h2>
 
 <!--
  ```diff
